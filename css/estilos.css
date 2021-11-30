@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+*{
+	margin: 0 0;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+body{
+	background-color: #b9a798;
+	font-size: 1em ⬄18px;
+}
+
+#area_cabeçalho{
+	background-position:center;
+	background-image: url(../imagens/praia_banner.png);
+	background-repeat: no-repeat;
+	padding: 15px;
+	margin-top: -15px;
+	text-align: center;
+	height: 300px;
+}
+
+
+h1{
+	color: #454c59;
+	font-size: 2.5em;
+	font-size: 43px;
+	margin-top: 20px;
+}
+
+#area_menu{
+	padding-top: 35px;
+}
+
+a.menu-link{
+	text-decoration: none;
+	color: #f2f2f2;
+	padding: 0 20px;
+	font-size: 17px;
+	transition: 0.4s;
+}
+
+a.menu-link:hover{
+	text-decoration: underline;
+	color: #454c59;
+	background-color: #f2f2f2;
+	padding: 0 23px;
+}
+
+#area_principal{
+	width: 100%;
+	margin-top: -70px;
+}
+
+#area_postagens{
+	width: 54%;
+	height: 2700px;
+	float: right;
+	margin-right: 10%;
+	margin-left: 0.5%;
+	margin-bottom: 30px;
+}
+
+#area_lateral{
+	width: 25%;
+	height: 1500px;
+	float: left;
+	margin-left: 10%;
+	margin-right: 0.5%;
+	margin-bottom: 30px;
+	background-color: #e3b28b;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color : #A68477; 
+}
+
+h2{
+	color: #e3b28b;
+	font-size: 30px;
+	font-family: 'Times New Roman', serif;
+}
+
+
+
+a.leiamais{
+	text-decoration: none;
+	font-size: 15px;
+	color: #4d6279;
+	transition: 0.3s;
+}
+
+a.leiamais:hover{
+	text-decoration: underline;
+	color: #222b35;
+}
+
+.imagem-postagem{
+	margin: 10px 0;
+	padding: 10px 0;
+	border-top: solid 2px #e3b28b;
+
+}
+
+#area_rodapé{
+	background-color: #454c59;
+	color: #f2f2f2;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+h3,h4{
+    color: #454C59;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.postagem-lateral{
+    font-size: 0.9em;
+    border-bottom: dashed 1.3px #000;
+	margin: 10px 8px;
+	text-align: justify;
+}
+
+.postagem-texto{
+	font-size: 90%;
+	padding-bottom: 10px;
+}
+
+#conteudo_lateral{
+	background: #E3B28B;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 0px;	
+}
+
+a.temas{
+	text-decoration: none;
+	color: #454c59;
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 5px;
+	display: block;
+	transition: 0.2s;
+}
+
+a.temas:hover{
+	text-decoration: none;
+	display: block;
+	background-color: #a68477;
+	color: #f2e0d0;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+	
+
+
+
+
+
+
